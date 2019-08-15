@@ -31,7 +31,8 @@
     - name: add a rule to allow HTTP on custom port
       panos_security_rule:
         ip_address: "{{ mgmt_ip }}"
-        password: "{{admin_password}}"
+        username: "{{ admin_username }}"
+        password: "{{ admin_password }}"
         operation: 'add'
         rule_name: 'Web traffic'
         service: 'service-http'
