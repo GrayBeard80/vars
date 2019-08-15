@@ -40,5 +40,5 @@
         source_zone: ['untrust']
         destination_zone: ['trust']
         action: 'allow'
-        commit: "True"
+        commit: "False"
 
