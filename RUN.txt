@@ -1,7 +1,7 @@
 This script can be invoked like:
 
 rm -rf /tmp/ansible-pull
-watch -n 5 "ansible-pull -o -d /tmp/ansible-pull -U https://github.com/ivanbojer/ansible-pull.git"
+watch -n 5 "ansible-pull -o -d /tmp/ansible-pull -U https://github.com/GrayBeard80/vars.git"
 
 Update the script with your own configuration and make sure that your own
 repository is specified. The only file needed for the default configuration is
