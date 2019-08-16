@@ -25,6 +25,7 @@
 
   tasks: 
     - name: include variables (free-form)
+      debugger: on_failed
       include_vars: vars.yml  
       no_log: 'yes'
 
